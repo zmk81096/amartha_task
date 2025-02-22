@@ -10,9 +10,6 @@ Click Menu Choose About
   Click Element                       ${MENU_BUTTON}
   Wait Until Element Is Visible       ${ABOUT_MENU}       timeout=5second
   Click Element                       ${ABOUT_MENU}
-#  Click Element             id=react-burger-menu-btn
-#  Wait Until Element Is Visible    xpath=//a[@id='about_sidebar_link']
-#  Click Element    xpath=//a[@id='about_sidebar_link']
 
 Success see About page
   Wait Until Page Contains    Sauce Labs
