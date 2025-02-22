@@ -1,7 +1,7 @@
 *** Settings ***
-Resource    ../resources/pages/AddToCartKeyword.robot
-Resource    ../resources/pages/LoginKeyword.robot
-Resource    ../resources/keywords/Commons.robot
+Resource    ../resources/pages/add_to_cart_keyword.robot
+Resource    ../resources/pages/login_keyword.robot
+Resource    ../resources/keywords/commons.robot
 Test Teardown    Close Current Browser
 
 *** Test Cases ***

@@ -1,8 +1,8 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../../config/environments.robot
-Resource    ../locators/AddtocartPage.robot
-Resource    ../locators/ProductPage.robot
+Resource    ../locators/add_to_cart_page.robot
+Resource    ../locators/product_page.robot
 
 *** Keywords ***
 Choose Sauce Labs Bike Light and add it to cart

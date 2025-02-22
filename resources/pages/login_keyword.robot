@@ -1,8 +1,8 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../../config/environments.robot
-Resource    ../locators/LoginPage.robot
-Resource    ../locators/ProductPage.robot
+Resource    ../locators/login_page.robot
+Resource    ../locators/product_page.robot
 
 *** Keywords ***
 Open Login page
