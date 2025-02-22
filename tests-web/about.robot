@@ -1,6 +1,8 @@
 *** Settings ***
-Resource    ../resources/keyword/LoginKeyword.robot
-Resource    ../resources/keyword/AboutKeyword.robot
+Resource    ../resources/pages/LoginKeyword.robot
+Resource    ../resources/pages/AboutKeyword.robot
+Resource    ../resources/keywords/Commons.robot
+Test Teardown    Close Current Browser
 
 
 *** Test Cases ***

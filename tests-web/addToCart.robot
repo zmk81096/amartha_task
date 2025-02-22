@@ -1,6 +1,8 @@
 *** Settings ***
-Resource    ../resources/keyword/AddToCartKeyword.robot
-Resource    ../resources/keyword/LoginKeyword.robot
+Resource    ../resources/pages/AddToCartKeyword.robot
+Resource    ../resources/pages/LoginKeyword.robot
+Resource    ../resources/keywords/Commons.robot
+Test Teardown    Close Current Browser
 
 *** Test Cases ***
 User wants to add item to cart
